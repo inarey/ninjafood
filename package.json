@@ -1,0 +1,23 @@
+{
+  "name": "ninjafoodie",
+  "version": "1.0.0",
+  "description": "This is a tailwind-css tutorial following The Net Ninja Tailwind CSS Tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inarey/ninjafood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inarey/ninjafood/issues"
+  },
+  "homepage": "https://github.com/inarey/ninjafood#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

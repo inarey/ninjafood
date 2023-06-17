@@ -4,7 +4,8 @@
   "description": "This is a tailwind-css tutorial following The Net Ninja Tailwind CSS Tutorial.",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+    "build": "tailwindcss -i src/styles.css -o dist/css/styles.css",
+    "watch": "tailwindcss -i src/styles.css -o dist/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/inarey/ninjafood/issues"
   },
   "homepage": "https://github.com/inarey/ninjafood#readme",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
 }
